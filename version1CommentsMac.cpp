@@ -482,7 +482,7 @@ bool partir (tMazo mazo, int cuantasCoger, tMazo otroMazo) {
 //Function used to cut the deck
 void cortar (tMazo mazo, int cuantas) {
 	tMazo mazoAux;
-	//In these boolean variables we save if we can divide and join the decks
+	//In these boolean variables we save if we can divide and join the decks.
 	bool puedePartirse = partir (mazo, cuantas, mazoAux); //We divide the original deck into two decks
 	bool puedenUnirse = unir (mazo, mazoAux); //We join the two decks previously divided
 }		
